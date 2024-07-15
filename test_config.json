@@ -1,0 +1,67 @@
+{
+    "endpoints": [
+        {
+            "name": "Test for invalid endpoint...",
+            "endpoint": "/notall",
+            "expected_status": 404,
+            "expected_type": "dict",
+            "key_value_pairs": {"message": "Page Not Found"}
+        },
+        {
+            "name": "Test countries in Asia region",
+            "endpoint": "/region/asia",
+            "expected_status": 200,
+            "expected_type": "list",
+            "key_value_pairs": {"region": "Asia"}
+        },
+        {
+            "name": "Test for non-existent region",
+            "endpoint": "/region/notexistregion",
+            "expected_status": 404,
+            "expected_type": "dict",
+            "key_value_pairs": {"message": "Not Found"}
+        },
+        {
+            "name": "Test retrieval of United States by name",
+            "endpoint": "/name/united states",
+            "expected_status": 200,
+            "expected_type": "list",
+            "key_value_pairs": {"name": "united states"}
+        },
+        {
+            "name": "Test for invalid country name",
+            "endpoint": "/name/invalidcountryname",
+            "expected_status": 404,
+            "expected_type": "dict",
+            "key_value_pairs": {"message": "Not Found"}
+        },
+        {
+            "name": "Test retrieval of USA by country code (CIOC)",
+            "endpoint": "/alpha/USA",
+            "expected_status": 200,
+            "expected_type": "list",
+            "key_value_pairs": {"cioc": "USA"}
+        },
+        {
+            "name": "Test retrieval of USA by country code (CCN3)",
+            "endpoint": "/alpha/840",
+            "expected_status": 200,
+            "expected_type": "list",
+            "key_value_pairs": {"ccn3": "840"}
+        },
+        {
+            "name": "Test retrieval of USA by country code (CCA2)",
+            "endpoint": "/alpha/US",
+            "expected_status": 200,
+            "expected_type": "list",
+            "key_value_pairs": {"cca2": "US"}
+        },
+        {
+            "name": "Test for invalid country code",
+            "endpoint": "/alpha/INVALIDCODE",
+            "expected_status": 400,
+            "expected_type": "dict",
+            "key_value_pairs": {"message": "Bad Request"}
+        }
+    ]
+}
