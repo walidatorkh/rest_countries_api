@@ -8,9 +8,8 @@ REST Countries API Automation Tests
 This script performs automated testing for the "GET /all, GET /name/{name}, GET /alpha/{code}, GET /region/{region}" on https://restcountries.com/ 
 using PyTest and the requests librarys.
 
-Instructions:
+# Instructions:
 
-This Python functions checks API calls to the ttps://restcountries.com/ website and handles different scenarios.
 
 ## Installation
 
