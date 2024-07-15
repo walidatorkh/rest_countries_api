@@ -8,7 +8,7 @@ REST Countries API Automation Tests
 This script performs automated testing for the "GET /all, GET /name/{name}, GET /alpha/{code}, GET /region/{region}" on https://restcountries.com/ 
 using PyTest and the requests libraries.
 
-# Instructions:
+# Instructions
 
 
 ## Installation
@@ -16,20 +16,20 @@ using PyTest and the requests libraries.
 1. Clone or download the Python script containing the functions (link to code [https://github.com/walidatorkh/rest_countries_api.git)](https://github.com/walidatorkh/rest_countries_api.git)).
    
 		git clone https://github.com/walidatorkh/rest_countries_api.git
-3. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/) and install.
+3. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/) and install
 
 4. Activate virtual enviroment using CMD
 
    		cd rest_countries_api
 		venv\Scripts\activate.bat
-5. Install the required dependencies using
+5. Install the required dependencies using pip
    
-		pip: pip install -r requirements.txt
+   		pip install -r requirements.txt
 
 ## Execution
 
 1. Open CMD and navigate to file location
-2. Execute:
+2. Execute
  	
   		pytest --html=report.html
 3. Open using browser created report.html to validate test results
