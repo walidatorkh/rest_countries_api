@@ -6,7 +6,7 @@ REST Countries API is home assignments
 REST Countries API Automation Tests
 
 This script performs automated testing for the "GET /all, GET /name/{name}, GET /alpha/{code}, GET /region/{region}" on https://restcountries.com/ 
-using PyTest and the requests librarys.
+using PyTest and the requests libraries.
 
 # Instructions:
 
