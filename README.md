@@ -13,22 +13,26 @@ using PyTest and the requests librarys.
 
 ## Installation
 
-1. Clone or download the Python script containing the functions (link to code [https://github.com/walidatorkh/qa_automation_home_assignment.git](https://github.com/walidatorkh/rest_countries_api.git)).
-2. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
-3. cd rest_countries_api
+1. Clone or download the Python script containing the functions (link to code [https://github.com/walidatorkh/rest_countries_api.git)](https://github.com/walidatorkh/rest_countries_api.git)).
+   
+		git clone https://github.com/walidatorkh/rest_countries_api.git
+3. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+
+   		cd rest_countries_api
 4. Activate virtual enviroment using CMD
    
 		venv\Scripts\activate.bat
-6. Install the required dependencies using
+5. Install the required dependencies using
    
 		pip: pip install -r requirements.txt
 
 ## Execution
 
-	1. Open CMD and navigate to file location
-	2. Execute:
- 	### pytest --html=report.html
-        3. Open using browser created report.html to validate test results
+1. Open CMD and navigate to file location
+2. Execute:
+ 	
+  		pytest --html=report.html
+3. Open using browser created report.html to validate test results
 
 # High-Level Test Plan for REST Countries API
 
