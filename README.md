@@ -17,9 +17,9 @@ using PyTest and the requests librarys.
 2. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
 3. cd rest_countries_api
 4. Activate virtual enviroment using CMD 
-  	### venv\Scripts\activate.bat
+  	 venv\Scripts\activate.bat
 5. Install the required dependencies using
-  	### pip: pip install -r requirements.txt
+  	 pip: pip install -r requirements.txt
 
 ## Execution
 
