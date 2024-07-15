@@ -13,17 +13,20 @@ using PyTest and the requests librarys.
 
 ## Installation
 
-	### Clone or download the Python script containing the functions (link to code [https://github.com/walidatorkh/qa_automation_home_assignment.git](https://github.com/walidatorkh/rest_countries_api.git)).
-	### Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
-	### cd rest_countries_api
-  ### Activate virtual enviroment using CMD venv\Scripts\activate.bat
-  ### Install the required dependencies using pip: pip install -r requirements.txt
+	1. Clone or download the Python script containing the functions (link to code [https://github.com/walidatorkh/qa_automation_home_assignment.git](https://github.com/walidatorkh/rest_countries_api.git)).
+	2. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+	3. cd rest_countries_api
+  	4. Activate virtual enviroment using CMD 
+  	### venv\Scripts\activate.bat
+  	5. Install the required dependencies using
+  	### pip: pip install -r requirements.txt
 
 ## Execution
 
-	### open CMD and navigate to file location
-	### Execute pytest --html=report.html --log-cli-level=INFO
-  ### Open using browser created report.html to validate test results
+	1. Open CMD and navigate to file location
+	2. Execute:
+ 	### pytest --html=report.html
+        3. Open using browser created report.html to validate test results
 
 # High-Level Test Plan for REST Countries API
 
@@ -43,8 +46,8 @@ using PyTest and the requests librarys.
    
 
 ## Limitations:
-### Lack of documentation regarding errors that may occur during API calls, including specific error codes and their meanings.
-### JSON schema validation for countries is not feasible due to inconsistency (each entry must be tested individually).
-### Insufficient data on several countries that returned results, preventing a reliable count of returned values.
-### The expected response time and system load behavior have not been described.
+1. Lack of documentation regarding errors that may occur during API calls, including specific error codes and their meanings.
+2. JSON schema validation for countries is not feasible due to inconsistency (each entry must be tested individually).
+3. Insufficient data on several countries that returned results, preventing a reliable count of returned values.
+4. The expected response time and system load behavior have not been described.
 
