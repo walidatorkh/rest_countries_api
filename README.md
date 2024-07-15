@@ -3,15 +3,22 @@ REST Countries API is home assignments
 
 
 ## Function Description
-REST Countries API Automation Tests
 
-This script performs automated testing for the "GET /all, GET /name/{name}, GET /alpha/{code}, GET /region/{region}" on https://restcountries.com/ 
-using PyTest and the requests libraries.
+### REST Countries API Automation Tests
 
-# Instructions
+This script performs automated testing for the following endpoints:
+- `GET /all`
+- `GET /name/{name}`
+- `GET /alpha/{code}`
+- `GET /region/{region}`
+
+The tests are conducted on [https://restcountries.com/](https://restcountries.com/) using PyTest and the requests libraries.
 
 
-## Installation
+## Instructions
+
+
+### Installation
 
 1. Clone or download the Python script containing the functions (link to code [https://github.com/walidatorkh/rest_countries_api.git)](https://github.com/walidatorkh/rest_countries_api.git)).
    
@@ -26,7 +33,7 @@ using PyTest and the requests libraries.
    
    		pip install -r requirements.txt
 
-## Execution
+### Execution
 
 1. Open CMD and navigate to file location
 2. Execute
@@ -34,7 +41,7 @@ using PyTest and the requests libraries.
   		pytest --html=report.html
 3. Open using browser created report.html to validate test results
 
-# High-Level Test Plan for REST Countries API
+## High-Level Test Plan for REST Countries API
 
 | Test Case ID | Test Case Description                                      | Expected Outcome                                             | Status  |
 |--------------|-----------------------------------------------------------|-------------------------------------------------------------|---------|
