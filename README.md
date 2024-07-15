@@ -16,11 +16,11 @@ using PyTest and the requests libraries.
 1. Clone or download the Python script containing the functions (link to code [https://github.com/walidatorkh/rest_countries_api.git)](https://github.com/walidatorkh/rest_countries_api.git)).
    
 		git clone https://github.com/walidatorkh/rest_countries_api.git
-3. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/).
+3. Ensure you have Python installed on your system. You can download it from [python.org](https://www.python.org/downloads/) and install.
+
+4. Activate virtual enviroment using CMD
 
    		cd rest_countries_api
-4. Activate virtual enviroment using CMD
-   
 		venv\Scripts\activate.bat
 5. Install the required dependencies using
    
